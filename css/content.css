@@ -1,0 +1,115 @@
+@charset "utf-8";
+*{transition-duration: 0.5s; word-break: keep-all;}
+body {font-family: 'NanumSquareNeo-bRg', 'Noto Sans KR', sans-serif; line-height: 1.8;}
+h1 {margin-bottom: 60px; font-size: 52px; font-weight: bold; line-height: 1; color:#fff;}
+h1 p {margin-bottom: 20px; font-size: 12px; font-weight: normal; letter-spacing: 3; text-transform: uppercase;}
+h2 {font-size: 21px; font-weight: 600; color: #fff;}
+h2 i{display: block;}
+h2+p {margin-top:16px; font-size: 20px; color: #fff;}
+.section{padding-top: 140px; padding-left:20px; padding-right: 20px;}
+.section .cont_box{margin:0 auto; max-width: 1400px;}
+.section_01 {box-sizing:border-box;background-color: #005BAE; text-align: center;}
+.section_01 .logistics_services {position: relative; margin-top: 120px; padding:64px 0; height: 776px; box-sizing: border-box;}
+.section_01 .logistics_services h2+img {margin-top: 30px; margin-bottom: 30px;}
+.section_01 .item_list > li {position: absolute; padding:20px; width: 420px; border:1px solid #fff; border-radius: 10px; box-sizing: border-box; vertical-align: top;color:#fff;}
+.section_01 .item_list > li .item{margin-bottom: 22px; padding:28px 0; font-size: 24px; font-weight: bold; line-height: 1; border-radius: 10px;}
+.section_01 .item_list>li:nth-child(1) {left: 0; top: 0;}
+.section_01 .item_list>li:nth-child(2) {right: 0; top: 0;}
+.section_01 .item_list>li:nth-child(3) {left: 0; bottom: 0;}
+.section_01 .item_list>li:nth-child(4) {right: 0; bottom: 0;}
+.section_01 .item_list>li:nth-child(1) .item{background-color:#2998FF;}
+.section_01 .item_list>li:nth-child(2) .item{background-color:#F3CE48;}
+.section_01 .item_list>li:nth-child(3) .item{background-color:#00A94E;}
+.section_01 .item_list>li:nth-child(4) .item{background-color:#0C0E5C;}
+.section_01 .item_list .d_cont li{position: relative; padding-left:14px; font-size: 19px; text-align: left;}
+.section_01 .item_list .d_cont li:before {position: absolute; left:0; top:9px; width: 5px; height: 5px; border-radius: 100%; background-color: #fff; content: '';}
+.section_01 .item_list .d_cont li+li {margin-top:2px;}
+.section_01 .equipment {margin-top: 60px; padding-bottom: 120px;}
+.section_01 .eq_list {margin-top: 30px; border:1px solid #004686; border-radius: 10px; font-size: 0; line-height: 0;}
+.section_01 .eq_list li {display: inline-block; padding-right: 10px; padding-left: 50px; padding-top: 36px; padding-bottom: 36px; width:33.3%; box-sizing:border-box; text-align: left;}
+.section_01 .eq_list li+li {border-left:1px solid #004686;}
+.section_01 .eq_list li:nth-child(4),
+.section_01 .eq_list li:nth-child(5),
+.section_01 .eq_list li:nth-child(6){border-top:1px solid #004686;}
+.section_01 .eq_list li:nth-child(3n-1) {width:33.4%;}
+.section_01 .eq_list li p {display: inline-block; font-size: 19px; line-height:1.5; color:#fff; text-align:left; vertical-align: middle;}
+.section_01 .eq_list li img{display: inline-block; margin-right: 31px; vertical-align: middle;}
+
+.section_02 {text-align: center; padding-bottom: 122px;}
+.section_02 h1 {color:#222222;}
+.section_02 h1 p{color:#C7C7C7;}
+.section_02 .top_txt {margin-bottom: 38px; font-size:38px; line-height:1.4; color:#333333;}
+.section_02 .top_txt span {box-shadow: inset 0px -1.2rem 0 0 rgba(225 239 255); color:#277BE8; z-index: 1;}
+.section_02 .bg_txt{position: relative; width:100%; overflow: hidden;}
+.section_02 .bg_txt .bg {position: absolute; left:50%; top:50%; transform: translate(-50%,-50%); font-size: 60px; font-weight: 600; line-height: 1; white-space: nowrap; text-align:center;color:#EFEFEF; z-index: 0;}
+.section_02 .bg_txt .bg i {display: inline-block; margin:0 16px; width:12px; height:12px; vertical-align: middle; border-radius: 100%;background-color: #EFEFEF;}
+.section_02 .bg_txt img {position: relative; z-index: 1;}
+.section_02 .ib_list {margin: 120px auto 0; max-width: 1400px; font-size: 0;}
+.section_02 .ib_list li{display: inline-block; padding-top: 36px; padding-right: 5px; padding-left: 5px; width: 18%; min-height: 340px; box-sizing: border-box; vertical-align: top; box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;}
+.section_02 .ib_list strong {display: block; margin-top: 32px; font-size: 24px; font-weight: 500; line-height: 1.3; color:#0D73F5}
+.section_02 .ib_list p{margin-top:26px; font-size:18px; line-height:1.5; color:#222222;}
+.section_02 .ib_list li+li{margin-left:2.5%;}
+.section_02 .cont_banner {margin-top:80px;}
+.section_02 .cont_banner .img {position: relative; max-width: 100%;}
+.section_02 .cont_banner .img img{display: block; width: 100%;}
+.section_02 .cont_banner .img p{position: absolute; right: 154px; top:50%; font-size: 24px; text-align: left; transform: translateY(-50%); font-weight: lighter; color:#222222;}
+.section_02 .cont_banner .img .mobile {display: none;}
+.section_02 .cont_banner a {display: inline-block; margin-top: 68px; padding: 16px 61px; line-height: 1.5; border:4px solid #DDDDDD; border-radius:35px; font-size: 20px; font-weight: 500; text-decoration: none; color:#222222;}
+
+@media screen and (max-width: 1350px) {
+    .section_01 .logistics_services{height:600px;}
+    .section_01 .logistics_services h2 ~ img {width: 450px;}
+    .section_01 .item_list>li{width:300px;}
+    .section_01 .eq_list li{ padding-right: 10px; padding-left: 10px; padding-top: 20px; padding-bottom: 20px;}
+    .section_01 .item_list>li .item{padding:20px 0; font-size: 20px;}
+    .section_01 .item_list .d_cont li{font-size: 16px;}
+    .section_01 .eq_list li img{margin-right: 15px; width:55px;}
+    .section_01 .eq_list li p{font-size: 16px;}
+    .section_02 .ib_list strong{font-size: 22px;}
+    .section_02 .ib_list p{font-size: 16px;}
+    .section_02 .cont_banner .img p{right: 5%; font-size: 20px;}
+}
+
+@media screen and (max-width: 1025px) {
+    .section_01 .logistics_services{margin-top:80px; height: auto;}
+    .section_01 .eq_list li{padding-left: 15px; width: 50% !important;}
+    .section_01 .item_list{font-size: 0;display: flex;flex-wrap: wrap;align-items: normal;}
+    .section_01 .item_list>li{display: inline-block; position: inherit; width:49%;}
+    .section_01 .item_list>li:nth-child(2n) {margin-left: 2%;}
+    .section_01 .item_list>li:nth-child(3),
+    .section_01 .item_list>li:nth-child(4){margin-top: 15px;}
+    .section_01 .eq_list{display: flex; justify-content: space-between; flex-wrap: wrap;}
+    .section_01 .item_list>li {width: calc(100%/2)-1;}
+    .section_01 .eq_list li:nth-child(3){border-top: 1px solid #004686;}
+    .section_01 .eq_list li:nth-child(2n-1){border-left: 0;}
+}
+
+@media screen and (max-width: 760px) {
+    .section{padding-top:60px;}
+    h1{margin-bottom: 34px; font-size: 25px;}
+    h1 p{font-size: 10px;}
+    h2{font-size: 13px;}
+    h2+p{font-size: 12px;}
+    .section_01 .logistics_services{margin-top: 40px; padding-top: 0; padding-bottom: 0;}
+    .section_01 .logistics_services h2 ~ img{margin-top:12px; width: 100%; max-width:300px;}
+    .section_01 .item_list{margin-top:16px;}
+    .section_01 .item_list>li .item{margin-bottom: 10px; padding:12px 0; font-size: 14px; border-radius:5px;}
+    .section_01 .item_list .d_cont li{font-size: 12px;}
+    .section_01 .eq_list li p{font-size: 12px;}
+    .section_01 .eq_list li{display: flex; align-items: center;}
+    .section_02 .top_txt{font-size: 19px;}
+    .section_02 .bg_txt .bg{font-size: 30px;}
+    .section_02 .bg_txt img{max-width: 220px;}
+    .section_02 .bg_txt .bg i{width: 6px; height: 6px;}
+    .section_02 .ib_list{margin-top: 43px;}
+    .section_02 .ib_list li{padding:15px;width: 100%; min-height: auto; display: flex; align-items: center; border:1px solid #EAF7FF; border-radius: 5px;}
+    .section_02 .ib_list li+li {margin: 0;margin-top: 10px;}
+    .section_02 .ib_list li img{width: 60px;}
+    .section_02 .ib_list li strong {margin-left: 15px;margin-top: 0; width:30%; font-size: 14px; text-align: left;}
+    .section_02 .ib_list p{margin-top:0; font-size:10px; text-align: left;}
+    .section_02 .cont_banner{margin-top: 50px;}
+    .section_02 .cont_banner .img .pc {display: none;}
+    .section_02 .cont_banner .img .mobile {display: block;}
+    .section_02 .cont_banner .img p{position: initial; margin-top: 25px; font-size: 13px; transform: none; text-align: center;}
+    .section_02 .cont_banner a{padding-top: 10px; padding-bottom: 10px; font-size: 12px;}
+}
